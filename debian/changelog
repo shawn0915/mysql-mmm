@@ -1,3 +1,11 @@
+mysql-mmm (2.2.2-1) unstable; urgency=high
+
+  * Added data santisation checkes to mitigate mmm_agentd remote command
+    injection vulernabilities. TALOS-2017-0501; CVE-2017-14474 - CVE-2017-14481
+  * Fixed (bug #1766773) with new perl-Net::ARP version numbers
+
+ -- David Beveridge <dave@bevhost.com>  Sun, 06 May 2018 07:50:00 +1000
+
 mysql-mmm (2.2.1-1) unstable; urgency=low
 
   * Fixed usage of wrong state name in set_active, forced_move_role and
